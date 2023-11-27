@@ -17,3 +17,21 @@ buttons.forEach(button => {
         delete activeSlide.dataset.active
     })
 })
+
+$(document).ready(function(){
+    $("#twitter").on('click', function(){
+        open("https://www.twitter.com/");
+    })
+
+    $("#linked").on('click', function(){
+        open("https://www.linkedin.com/")
+    })
+
+    $("#facebook").on('click', function(){
+        open("https://www.facebook.com/")
+    })
+
+    $("#insta").on('click', function(){
+        open("https://www.instagram.com/")
+    })
+})

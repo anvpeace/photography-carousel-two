@@ -25,7 +25,7 @@
 }
 
 .nav-item{
-    margin-left: 10rem;
+    margin-left: 12rem;
 }
 
 #header-img{
@@ -262,5 +262,9 @@ footer{
 footer > img{
     margin-left: 55px;
     margin-top: 25px;
+    margin-bottom: 15px;
+    width: 5rem;
+    height: 5rem;
+
 
 }
