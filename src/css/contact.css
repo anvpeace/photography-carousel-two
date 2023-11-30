@@ -1,0 +1,172 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+body{
+    background-color: rgba(250, 234, 215, 0.856);
+    z-index: 2;
+}
+.collapse{
+    width: 100vw;
+}
+
+.navbar{
+    top: 0;
+    margin: 0;
+    position: absolute;
+    /* display: flex; */
+    justify-content: center;
+    z-index: 2;
+    width: 98vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white;
+    margin: 0;
+    text-shadow: 3px 3px black;
+}
+
+.nav-item{
+    margin-left: 16rem;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+#main-content-row{
+    margin-top: 16rem;
+}
+.row{
+    margin-top: 5rem;
+    width: 90%;
+    margin-left: 3%;
+    z-index: 2;
+    position: relative;
+    /* margin-right: 2rem; */
+}
+.col-6{
+    position: relative;
+    padding: 0px 0px;
+}
+
+#title{
+    margin-left: 10rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+
+
+#title > h1{
+
+    font-size: 82px;
+
+
+}
+
+#left-img{
+    width: 87%;
+    height: 97%;
+    margin-left: 160px;
+    box-shadow: rgba(17, 17, 17, 0.726) 0px 50px 100px -20px, rgba(17, 17, 17, 0.726) 0px 30px 60px -30px, rgba(17, 17, 17, 0.726) 0px -2px 6px 0px inset;
+
+}
+
+#contentRow{
+    margin-left: 180px;
+}
+
+#inputArea{
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    
+}
+
+#name-input, #email-input, #message-input{
+    width: 240px;
+    border: none;
+    background-color: rgba(255, 228, 196, 0.288);
+    color: black;
+    margin-bottom: 4rem;
+    border-bottom: 3px solid black;
+}
+
+#infoArea{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+
+.contact-basics{
+    margin-bottom: 3rem;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 240px;
+    height: 40px;
+}
+
+::placeholder{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.social-contacts > img{
+    height: 40px;
+    width: 40px;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .left-side{
+} */
+/* 
+img{
+    width: 90%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.74) 0px 24px 25px, rgba(0, 0, 0, 0.74) 0px -12px 30px, rgba(0, 0, 0, 0.74) 0px 4px 6px, rgba(0, 0, 0, 0.74) 0px 12px 13px, rgba(0, 0, 0, 0.74) 0px -3px 5px;
+
+} */
+
