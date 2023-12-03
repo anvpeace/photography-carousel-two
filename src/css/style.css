@@ -1019,12 +1019,12 @@ footer > img{
     
     
     .collapse{
-        width: 100%;
+        width: 100vw;
     }
     
     .container-fluid{
         padding: 0px;
-        width: 100%;
+        width: 90%;
     }
     
     .navbar-toggler{
@@ -1037,7 +1037,7 @@ footer > img{
         justify-items: center;
         justify-content: center;
         z-index: 2;
-        width: 100%;
+        width: 95%;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 16px;
         font-weight: bold;
@@ -1187,33 +1187,34 @@ footer > img{
     margin-bottom: 55px;
     font-family: 'Pacifico', cursive;
     font-size: 56px;
-    margin-left: 1rem;
+    width: 50%;
+    margin-left: 6.5rem;
     
     }
     
     /* 2, 73, 23, 0.74 */
     #left-img{
-        width: 65vw;
+        width: 55vw;
         position: relative;
-        margin-left: 34vh;
+        margin-left: 37vh;
     margin-bottom: 3rem;
     box-shadow:  -14px 22px 16px rgba(0, 0, 0, 0.74);
     /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
     }
     
     #center-img{
-        width: 65vw;
+        width: 55vw;
         position: relative;
-        margin-left: 34vh;
+        margin-left: 37vh;
     margin-bottom: 3rem;
     box-shadow: rgba(0, 0, 0, 0.74) 0px 24px 25px, rgba(0, 0, 0, 0.74) 0px -12px 30px, rgba(0, 0, 0, 0.74) 0px 4px 6px, rgba(0, 0, 0, 0.74) 0px 12px 13px, rgba(0, 0, 0, 0.74) 0px -3px 5px;
     
     }
     
     #right-img{
-        width: 65vw;
+        width: 55vw;
         position: relative;
-        margin-left: 34vh;
+        margin-left: 37vh;
     margin-bottom: 3rem;
     box-shadow: rgba(0, 0, 0, 0.74) 14px 22px 16px;
     
@@ -1251,17 +1252,17 @@ footer > img{
     
     
     #left-img-2{
-        width: 65vw;
+        width: 55vw;
         position: relative;
-        margin-left: 34vh;
+        margin-left: 18.5rem;
     margin-bottom: 3rem;
     box-shadow:  -14px 22px 16px rgba(0, 0, 0, 0.74);
     }
     
     #center-img-2{
-        width: 65vw;
+        width: 55vw;
         position: relative;
-        margin-left: 34vh;
+        margin-left: 18.5rem;
     margin-bottom: 3rem;
     box-shadow: rgba(0, 0, 0, 0.74) 0px 24px 25px, rgba(0, 0, 0, 0.74) 0px -12px 30px, rgba(0, 0, 0, 0.74) 0px 4px 6px, rgba(0, 0, 0, 0.74) 0px 12px 13px, rgba(0, 0, 0, 0.74) 0px -3px 5px;
     
@@ -1269,9 +1270,9 @@ footer > img{
     }
     
     #right-img-2{
-        width: 65vw;
+        width: 55vw;
         position: relative;
-        margin-left: 34vh;
+        margin-left: 18.5rem;
     margin-bottom: 3rem;
     box-shadow: rgba(0, 0, 0, 0.74) 14px 22px 16px;
     
@@ -1294,8 +1295,8 @@ footer > img{
     .wrapper > .content{
         z-index: 3;
         position: absolute;
-        width: 264px;
-        height: 394px;
+        width: 234px;
+        height: 353px;
         background-color: rgba(0, 0, 0, 0.712);
         display: flex;
         justify-content: center;
@@ -1304,7 +1305,7 @@ footer > img{
         opacity: 0;
         transition: 0.6s;
         color: white;
-        margin-left: 17.5rem;
+        margin-left: 18.5rem;
         margin-bottom: 48px;
     }
     
@@ -1312,8 +1313,8 @@ footer > img{
     
         z-index: 3;
         position: absolute;
-        width: 264px;
-        height: 394px;
+        width: 234px;
+        height: 352px;
         background-color: rgba(0, 0, 0, 0.712);
         display: flex;
         justify-content: center;
@@ -1322,7 +1323,7 @@ footer > img{
         opacity: 0;
         transition: 0.6s;
         color: white;
-        margin-left: 16rem;
+        margin-left: 17rem;
         margin-bottom: 48px;
     
     }
@@ -1352,7 +1353,7 @@ footer > img{
     }
     
     footer > img{
-    margin-left: 55px;
+    margin-left: 15px;
     margin-top: 25px;
     margin-bottom: 15px;
     width: 15px;
